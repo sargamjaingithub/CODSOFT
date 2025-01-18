@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Happy+Monkey&family=Playwrite+VN:wght@100..400&family=Rubik+Vinyl&family=Ysabeau+SC:wght@1..1000&display=swap');
+html,body{
+    height:100%;
+    width:100%;
+    font-family: "Edu AU VIC WA NT Guides", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+ }
+ .button{
+    padding:20px;
+    width:66px;
+    margin:0 20px;
+    border:2px solid black;
+    cursor: pointer;
+    background: linear-gradient(135deg, #8a9ab8, rgb(226, 226, 214));
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+    border-radius:9px;
+    cursor:pointer; 
+ }
+ .row{
+    margin:5px 0;
+
+ }

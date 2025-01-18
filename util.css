@@ -1,0 +1,30 @@
+.text-center{
+    text-align:center;
+
+}
+.bg-red{
+background-color:blue;
+}
+.mx-auto{
+    margin:auto;
+}
+
+.flex-col{
+    flex-direction:column;
+
+}
+.items-center{
+    align-items:center;
+}
+.flex{
+    display:flex;
+    } 
+.row input{
+    font-size:23px;
+    width:291px;
+    margin:0;
+    padding:4px 25px;
+    border:2px solid black;
+    border-radius:3px;
+        }
+    
