@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="bck.jpg" class="logo" alt="Background Image">
+                <img src="me.jpg" class="logo" alt="Profile Image">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX DESIGNER</p>
+                <h1>Hi, I'm <span>SARGAM JAIN</span> <br>From India</h1>
+            </div>
+        </div>
+    </div> 
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" alt="Profile Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>As a passionate tech learner and web developer, I love solving real-world problems and dealing with algorithms .I enjoy working with like mindset people that are passionate too about building different projects</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">       <ul>
+                            <li><span>UI/UX</span><br>Designing web interfaces</li>
+                            <li><span>Web Development</span><br>Front-end Web Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Earned 50-day LeetCode challenge</li>
+                            <li><span>Nov 2024</span><br>Secured 2nd position at Arduobotics workshop at SRM IST</li>
+                            <li><span>Dec 2024</span><br>Made a major project: VIRTUAL ASSISTANT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>12th ISC BOARD, St. Mary's School</li>
+                            <li><span>2024</span><br>Admission at SRM University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+<!-------services-------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>this is a portfolio website describing my skills,experiences and education<p> 
+                <a href="#" >learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>this is UI/UX website designed by me</p> 
+                <a href="#" >learn more</a>
+            </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>AppDesign</h2>
+                    <p>this is app designed by me</p>
+                    <a href="#" >learn more</a>
+            </div>
+        </div>
+            </div> 
+    </div>
+ </div>
+  <!-----------portfolio----->
+    <div id="portfolio">
+         <div class="container"> 
+            <h1 class="sub-title">My Work</h1>
+           <div class="work-list">
+                <div class="work">
+                    <img src="mob1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.Download it from playstore</p>
+                        <a href='#'>download link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mob2.jpg">
+                    <div class="layer">
+                     
+                        <h3>Virtual Assistant</h3>
+                        <p>The app connects you to the talented people around the world.Download it from playstore</p>
+                        <a href='#'>download link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mob3.jpg">
+                    <div class="layer">
+                   
+                  <h3>Landing page</h3>
+                  <p>This is landing page that links you to a website also has hover effect</p>
+                  <a href='#'>download link</a>
+
+                </div>
+</div>
+           </div>
+           <a href='#' class="btn">See more</a>
+      </div>
+    </div>
+    <!------contact-->
+    <div class="container">
+            <div id="container">
+                   <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-brands fa-telegram"></i>jainsargam@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9528617580</p>
+                     <div class="social-icons"></div>
+                  
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i>
+                        <a href="https://linkedln.in"><i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <a href=""class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                   </div>         
+                    </div>
+
+            </div>
+    </div>
+
+
+    <script>
+        function openTab(tabName) {
+            var i, tabContents, tabLinks;
+            
+         
+            tabContents = document.getElementsByClassName("tab-contents");
+            for (i = 0; i < tabContents.length; i++) {
+                tabContents[i].style.display = "none";
+            }
+            
+            // Remove active class from all tab links
+            tabLinks = document.getElementsByClassName("tab-links");
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].classList.remove("active");
+            }
+
+            document.getElementById(tabName).style.display = "block";
+            event.currentTarget.classList.add("active");
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            openTab('skills');
+        });
+    </script>
+
+</body>
+</html>
